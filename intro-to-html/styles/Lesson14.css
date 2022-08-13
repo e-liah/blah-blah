@@ -1,0 +1,175 @@
+body {
+  height: 3000px;
+  font-family: arial;
+  background-color: lightpink;
+  padding-top: 60px;
+}
+.ex-14b {
+  background-color: green;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  color: white;
+}
+
+.ex-14d {
+  position: fixed;
+  background-color: rgba(0,0,0,0.8);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-box {
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 200px;
+  border: none;
+  border-radius: 5px;
+}
+
+.text-1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+
+.text-2 {
+  margin-bottom: 13px;
+}
+
+.ex-14e {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+}
+.fb-left {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: top;
+  margin-left: 70px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.fb-name {
+  font-weight: bold;
+  margin-left: 8px;
+  font-size: 15px;
+}
+
+.fb-right {
+  margin-right: 50px;
+}
+
+.fb-add {
+  background-color: rgb(14, 146, 235);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left:12px;
+  padding-right: 12px;
+  cursor: pointer;
+}
+
+.fb-message {
+  background-color: rgb(230, 230, 230);
+  border: none;
+  border-radius: 3px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.ex-14f {
+  display: flex;
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+}
+
+.dc-column1 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(43, 43, 43);
+  padding-top: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.dc-icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  object-position: top;
+  margin-bottom: 8px;
+}
+
+.dc-column2 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background-color: rgb(63, 63, 63);
+  color: rgb(189, 189, 189);
+  padding-top: 18px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.dc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.dc-info {
+  color: white;
+  font-size: 15px;
+}
+
+.dc-plus {
+  font-size: 25px;
+}
+
+.dc-channels {
+  display: flex;
+  flex-direction: column;
+}
+
+.dc-new, .dc-updates, .dc-faq {
+  margin-bottom: 12px;
+}
+
+.span-space {
+  margin-right: 5px;
+}

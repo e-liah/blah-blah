@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Lesson 12 </title>
+    <link rel="stylesheet" href="styles/Lesson12.css">
+  </head>
+
+  <body>
+    <div style="
+    display: flex;
+    flex-direction: row;
+    ">
+      <div style="
+      background-color: lightblue; 
+      width: 200px;
+      "> 200px </div>
+      <div style="
+      background-color: lightpink; 
+      width: 75px;
+      "> 75px </div>
+    </div>
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    ">
+      <div style="
+      background-color: lightblue; 
+      width: 50px;
+      "> item 1 </div>
+      <div style="
+      background-color: lightpink; 
+      flex: 1;
+      "> item 2 </div>
+      <div style="
+      background-color: lightblue; 
+      width: 75px;
+      "> item 3 </div>
+    </div>
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+    ">
+      <div style="
+      background-color: lightpink; 
+      "> item 1 </div>
+      <div style="
+      background-color: lightpink; 
+      "> item 2 </div>
+      <div style="
+      background-color: lightpink; 
+      "> item 3 </div>
+      <div style="
+      background-color: lightpink; 
+      "> item 4 </div>
+    </div>
+
+    <div style="
+    height: 50px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    ">
+      <div style="
+      background-color: lightpink; 
+      "> item 1 </div>
+      <div style="
+      background-color: lightpink; 
+      "> item 2 </div>
+    </div>
+
+    <div style="
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 300px;
+    font-family: arial;
+    padding-bottom: 10px;
+    ">
+      <div style="
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 10px;
+      padding-right: 15px;
+      padding-top: 10px;
+      ">
+        <div> Home </div>
+        <div style="
+        background-color: rgb(41, 113, 247);
+        border: none;
+        border-radius: 15px;
+        color: white;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        "> 14 </div>
+      </div>
+
+      <div style="
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 10px;
+      padding-right: 15px;
+      padding-top: 10px;
+      ">
+        <div> Notifications </div>
+        <div style="
+        background-color: rgb(41, 113, 247);
+        border: none;
+        border-radius: 15px;
+        color: white;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        "> 3 </div>
+      </div>
+
+      <div style="
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 10px;
+      padding-right: 15px;
+      padding-top: 10px;
+      ">
+        <div> Messages </div>
+        <div style="
+        background-color: rgb(41, 113, 247);
+        border: none;
+        border-radius: 15px;
+        color: white;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        "> 5 </div>
+      </div>
+    </div>
+
+    <div class="acct-column">
+      <img class="profile-pic" src="ey.png">
+      <div class="acct-row">
+        <p class="name"> oliver </p>
+        <p class="desc"> the cat </p>
+        <p class="status"> Popular </p>
+      </div>
+        <button class="follow"> Follow </button>
+    </div>
+
+    <div class="acct-column">
+      <img class="profile-pic" src="mimi.png">
+      <div class="acct-row">
+        <p class="name"> Mimi </p>
+        <p class="desc"> Sleepy Cat </p>
+        <p class="status"> Popular </p>
+      </div>
+        <button class="follow"> Follow </button>
+    </div>
+
+    <div class="acct-column">
+      <img class="profile-pic" src="rex.png">
+      <div class="acct-row">
+        <p class="name"> Rex </p>
+        <p class="desc"> Happy Bulldog </p>
+        <p class="status"> Popular </p>
+      </div>
+        <button class="follow"> Follow </button>
+    </div>
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(122, 57, 175);
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-family: arial;
+    font-size: 15px;
+    ">
+      <div style="
+      color: white;
+      font-weight: bold;
+      "> Home </div>
+
+      <div style="
+      margin-left: 70px;
+      margin-right: 35px;
+      max-width: 500px;
+      ">
+        <input type="text" placeholder="Search" style="
+        height: 30px;
+        width: 400px;
+        border: none;
+        border-radius: 20px;
+        padding-left: 20px;
+        ">
+      </div>
+
+      <div>
+        <button style="
+        background-color: transparent;
+        border-color: white;
+        border-style: solid;
+        border-width: 1px;
+        color: white;
+        border-radius: 2px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+        "> Download </button>
+      </div>
+
+    </div>
+
+  </body>
+</html>

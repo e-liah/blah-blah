@@ -1,0 +1,89 @@
+.container-one {
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+
+.container-two {
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+}
+
+.container-three {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.container-four {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 20px;
+}
+
+.box-one {
+  vertical-align: top;
+  font-family: arial;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  width: 200px;
+}
+
+.ore {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+  margin-bottom: 0;
+}
+
+.fb-name {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 8px;
+}
+
+.mutuals {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+  margin-left: 8px;
+  margin-bottom: 10px;
+}
+
+.fb-stat {
+  color: gray;
+  font-size: 13px;
+  margin-bottom: 0;
+  padding-left: 3px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.fb-add {
+  background-color: rgb(1, 104, 221);
+  color: white;
+  border: none;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.friend-icon {
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  border-radius: 14px;
+  vertical-align: middle;
+  margin-right: 4px;
+}

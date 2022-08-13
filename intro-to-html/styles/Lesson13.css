@@ -1,0 +1,183 @@
+body {
+  padding-bottom: 1000px;
+  font-family: arial;
+}
+
+.container-one{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.pink-one {
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.pink-one-text {
+  background-color: black;
+  color: white;
+}
+
+.blue-one {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.container-two {
+  display: flex;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pink-two {
+  background-color: lightpink;
+  width: 100px;
+}
+
+.blue-two {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.blue-two-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blue-two-row2 {
+  background-color: black;
+  color: white;
+}
+
+.container-three {
+  display: flex;
+  flex-direction: column;
+  border-width: 1px;
+  border-color: rgb(192,192,192);
+  border-style: solid;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+  border-radius: 4px;
+  width: 380px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: arial;
+}
+
+.inboxes {
+  font-size: 14px;
+  color: rgb(105, 105, 105);
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.icon {
+  height: 45px;
+  width: 45px;
+  border-radius: 25px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  margin-left: 10px;
+  line-height: 20px;
+}
+
+.top-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 325px;
+}
+
+.handle {
+  font-weight: bold;
+}
+
+.time {
+  color:rgb(105, 105, 105);
+  font-size: 13px;
+}
+
+.subject {
+  font-weight: bold;
+}
+
+.message {
+  color:rgb(105, 105, 105);
+}
+
+.container-four {
+  display: flex;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.twt-column {
+  display: flex;
+}
+
+.twt-icon {
+  height: 40px;
+  width: 65px;
+  border-radius: 25px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.twt-row {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.twt-handle {
+  margin-bottom: 6px;
+}
+
+.span-handle {
+  color:rgb(105, 105, 105);
+}
+
+.twt-message {
+  margin-bottom: 8px;
+}
+
+.nest-flex {
+  display: flex;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 8px;
+  overflow: hidden;
+  align-items: center;
+}
+
+.gray-cell {
+  width: 130px;
+  height: 100px;
+  background-color: rgb(200, 200, 200);
+  margin-right: 15px;
+  margin-bottom: -1px;
+}
+
+.yt-name {
+  color: rgb(105,105,105);
+  margin-bottom: 5px;
+}

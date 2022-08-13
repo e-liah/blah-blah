@@ -1,0 +1,107 @@
+body {
+  height: 3000px;
+  font-family: arial;
+  background-color: lightpink;
+}
+
+.ex-15a {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 13px;
+  padding-right: 13px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.ex-15b {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: gray;
+  height: 180px;
+  width: 320px;
+}
+
+.close-button-ad {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: -12px;
+  left: -12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 13px;
+  padding-right: 13px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.timestamp {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 2px;
+}
+
+.ex-15e {
+  position: relative;
+  width: 300px;
+  display: inline-block;
+}
+
+.clothes-pic {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.sale {
+  position: absolute;
+  background-color: black;
+  color: white;
+  top: 10px;
+  right: 0;
+  font-size: 13px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.button-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 80px;
+}
+
+.add-cart {
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right:12px;
+  cursor: pointer;
+}

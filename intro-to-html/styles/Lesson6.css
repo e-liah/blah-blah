@@ -1,0 +1,18 @@
+p {
+  text-align: center;
+  font-family: montserrat;
+}
+
+.line-one {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.line-two {
+  font-size: 15px;
+}
+
+.span-underline {
+  text-decoration: underline;
+}
